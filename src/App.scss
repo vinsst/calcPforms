@@ -384,6 +384,7 @@ body {
 }
 
 .when_span {
+  color: #535460;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -523,4 +524,31 @@ body {
   .when__twoTables_four {
     margin-top: 0px;
   }
+}
+
+.homeMain__right_formElement_check {
+  display: flex;
+  align-items: center;
+}
+
+.homeMain__right_formElement_check_circle {
+  border-radius: 50px;
+  border: 1px solid var(--Inputs, #8e8f9b);
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+}
+
+.circle_span {
+  color: #21222d;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.homeMain__right_formElement_check_container {
+  display: flex;
+  margin-top: 40px;
 }

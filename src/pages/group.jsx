@@ -6,6 +6,10 @@ import arrowLeft from "../assets/img/arrow_left.svg";
 import One from "../components/One.jsx";
 import Two from "../components/Two.jsx";
 import Three from "../components/Three.jsx";
+import Four from "../components/Four.jsx";
+import Five from "../components/Five.jsx";
+import Six from "../components/Six.jsx";
+import Seven from "../components/Seven.jsx";
 
 function Group() {
   return (
@@ -27,7 +31,7 @@ function Group() {
               <div className="homeMain__right_formElement homeMain__right_formElement_h1">
                 Request a Quote
               </div>
-              <Three />
+              <Four />
               <div className="homeMain__right_formElement homeMain__right_formElement_backNext">
                 <div className="homeMain__right_formElement_backNext_button">
                   <div className="back_button">

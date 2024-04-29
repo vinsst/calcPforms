@@ -294,8 +294,6 @@ body {
   justify-content: center;
 }
 
-.homeMain__right_container {
-}
 .homeMain__right_content {
   color: #21222d;
 }
@@ -392,7 +390,7 @@ body {
   margin-bottom: 10px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 3000px) {
   .when_span {
     font-size: 16px;
   }
@@ -495,4 +493,17 @@ body {
 .stepsList_circle_1 {
   border: 1px solid var(--Lines, #c94654);
   color: #c94654;
+}
+
+.stepsList_line_1 {
+  border: 1px solid var(--Lines, #c94654);
+  color: #c94654;
+}
+
+.stepsList_circle_2 {
+  border: 1px solid var(--Lines, #c94654);
+  color: #c94654;
+}
+.when__twoTables_second {
+  margin-top: 20px;
 }

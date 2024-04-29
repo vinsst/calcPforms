@@ -503,3 +503,24 @@ body {
 .when__twoTables_second {
   margin-top: 20px;
 }
+
+.when__tableHalf_four_span {
+  color: #535460;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.when__tableHalf_four {
+  height: 40px;
+}
+
+.when__twoTables_four {
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .when__twoTables_four {
+    margin-top: 0px;
+  }
+}

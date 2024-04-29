@@ -1,5 +1,10 @@
 import React from "react";
 
+import houseFull from "../assets/img/houseFull.svg";
+import housePart from "../assets/img/housePart.svg";
+import box from "../assets/img/box.svg";
+import boxK from "../assets/img/boxK.svg";
+
 function Four() {
   return (
     <div>
@@ -23,14 +28,42 @@ function Four() {
         <div className="when_twoTables">
           <div className="when_table">
             <div className="when_tableHalf when__tableHalf_four">
-              <img src="" alt="" className="when__tableHalf_four_img" />
-              <span className="when__tableHalf_four_span"></span>
+              <img
+                src={houseFull}
+                alt=""
+                className="when__tableHalf_four_img"
+              />
+              <span className="when__tableHalf_four_span">
+                Complete household
+              </span>
             </div>
           </div>
           <div className="when_table">
             <div className="when_tableHalf when__tableHalf_four">
-              <img src="" alt="" className="when__tableHalf_four_img" />
-              <span className="when__tableHalf_four_span"></span>
+              <img
+                src={housePart}
+                alt=""
+                className="when__tableHalf_four_img"
+              />
+              <span className="when__tableHalf_four_span">
+                Part of household
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="when_twoTables when__twoTables_four">
+          <div className="when_table">
+            <div className="when_tableHalf when__tableHalf_four">
+              <img src={box} alt="" className="when__tableHalf_four_img" />
+              <span className="when__tableHalf_four_span">Few Pieces</span>
+            </div>
+          </div>
+          <div className="when_table">
+            <div className="when_tableHalf when__tableHalf_four">
+              <img src={boxK} alt="" className="when__tableHalf_four_img" />
+              <span className="when__tableHalf_four_span">
+                Some boxes or luggage
+              </span>
             </div>
           </div>
         </div>

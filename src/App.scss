@@ -282,6 +282,12 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .leftMonitor {
+    width: 70%;
+  }
+}
+
 .homeMain_right {
   display: flex;
   align-items: center;
@@ -312,6 +318,13 @@ body {
   border: 1px solid var(--Lines, #d1d2df);
   background: var(--White, #fff);
   color: #d1d2df;
+}
+
+@media (max-width: 800px) {
+  .stepsList_circle {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 .homeMain__right_formElement_steps {
@@ -437,6 +450,7 @@ body {
   font-weight: 400;
   text-align: center;
   margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .homeMain__right_formElement {

@@ -552,3 +552,132 @@ body {
   display: flex;
   margin-top: 40px;
 }
+
+.when_search {
+  border-radius: 8px;
+  border: 1px solid var(--Inputs, #8e8f9b);
+  display: flex;
+  height: 20px;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+
+  margin: 20px 0;
+}
+
+.when__search_el {
+  color: var(--Inputs, #8e8f9b);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.when_table_five {
+  width: 100%;
+}
+
+.when_tableHalf {
+  height: 40px;
+}
+
+.calc_content {
+  display: flex;
+  margin: 40px 0;
+}
+
+.calc__left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.calc__left_el {
+  margin-bottom: 5px;
+}
+
+.arrDown {
+  transform: scale(1, -1);
+}
+
+.calc__right {
+  width: 100%;
+}
+
+.calc__right_layer1 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.familyNoFrame {
+  margin-right: 3px;
+}
+
+.calc__right_layer1_famRoom {
+  display: flex;
+  align-items: center;
+}
+
+.calc__right_layer1_famRoom_span {
+  color: var(--Text, #21222d);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.calc__right_layer1_btn {
+  display: flex;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 48px;
+  border: 1px solid var(--Primary, #c94654);
+  color: var(--Text, #21222d);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.calc__right_layer2 {
+  color: var(--Text, #21222d);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calc__right_layer2_2 {
+  margin-left: 100px;
+}
+
+.calc__right_layer3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: #f8f8f8;
+  height: 50px;
+  padding: 10px 20px;
+  color: var(--Text, #21222d);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.calc__right_layer3_el_plus {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}

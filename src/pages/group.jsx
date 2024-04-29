@@ -31,7 +31,7 @@ function Group() {
               <div className="homeMain__right_formElement homeMain__right_formElement_h1">
                 Request a Quote
               </div>
-              <Seven />
+              <Five />
               <div className="homeMain__right_formElement homeMain__right_formElement_backNext">
                 <div className="homeMain__right_formElement_backNext_button">
                   <div className="back_button">

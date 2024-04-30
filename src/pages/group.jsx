@@ -12,6 +12,57 @@ import Six from "../components/Six.jsx";
 import Seven from "../components/Seven.jsx";
 
 function Group() {
+  const [currentComponent, setCurrentComponent] = useState("One");
+
+  const nextComponent = () => {
+    switch (currentComponent) {
+      case "One":
+        setCurrentComponent("Two");
+        break;
+      case "Two":
+        setCurrentComponent("Three");
+        break;
+      case "Three":
+        setCurrentComponent("Four");
+        break;
+      case "Four":
+        setCurrentComponent("Five");
+        break;
+      case "Five":
+        setCurrentComponent("Six");
+        break;
+      case "Six":
+        setCurrentComponent("Seven");
+        break;
+      default:
+        break;
+    }
+  };
+
+  const prevComponent = () => {
+    switch (currentComponent) {
+      case "Two":
+        setCurrentComponent("One");
+        break;
+      case "Three":
+        setCurrentComponent("Two");
+        break;
+      case "Four":
+        setCurrentComponent("Three");
+        break;
+      case "Five":
+        setCurrentComponent("Four");
+        break;
+      case "Six":
+        setCurrentComponent("Five");
+        break;
+      case "Seven":
+        setCurrentComponent("Six");
+        break;
+      default:
+        break;
+    }
+  };
   return (
     <body>
       <header class="homeHeader">
@@ -31,16 +82,28 @@ function Group() {
               <div className="homeMain__right_formElement homeMain__right_formElement_h1">
                 Request a Quote
               </div>
-              <Five />
+              {currentComponent === "One" && <One />}
+              {currentComponent === "Two" && <Two />}
+              {currentComponent === "Three" && <Three />}
+              {currentComponent === "Four" && <Four />}
+              {currentComponent === "Five" && <Five />}
+              {currentComponent === "Six" && <Six />}
+              {currentComponent === "Seven" && <Seven />}
               <div className="homeMain__right_formElement homeMain__right_formElement_backNext">
-                <div className="homeMain__right_formElement_backNext_button">
+                <div
+                  className="homeMain__right_formElement_backNext_button"
+                  onClick={prevComponent}
+                >
                   <div className="back_button">
                     <img src={arrowLeft} alt="" className="back__button_arr" />
                     <span className="back__button_span">Back</span>
                   </div>
                 </div>
 
-                <div className="homeMain__right_formElement_backNext_button">
+                <div
+                  className="homeMain__right_formElement_backNext_button"
+                  onClick={nextComponent}
+                >
                   <div className="next_button">
                     <span className="next__button_span">Next</span>
                     <img src={arrowLeft} alt="" className="next__button_arr" />

@@ -125,6 +125,10 @@ table {
 
 /*------------------------------------------------------------------------------------------*/
 
+* {
+  box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
@@ -186,7 +190,7 @@ body {
 }
 
 .container {
-  box-sizing: content-box;
+  box-sizing: border-box;
   max-width: 90%;
   margin: 0px auto;
 }
@@ -324,13 +328,6 @@ body {
   color: #d1d2df;
 }
 
-@media (max-width: 800px) {
-  .stepsList_circle {
-    width: 15px;
-    height: 15px;
-  }
-}
-
 @media (min-width: 3000px) {
   .stepsList_circle {
     width: 40px;
@@ -347,9 +344,9 @@ body {
   width: 50px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .stepsList_line {
-    width: 10px;
+    width: 20px;
   }
 }
 
@@ -374,7 +371,6 @@ body {
 .when_tableHalf {
   display: flex;
   height: 20px;
-  padding: 12px 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -424,8 +420,8 @@ body {
 
 .back_button {
   display: flex;
-  width: 100px;
-  height: 20px;
+  width: 180px;
+  height: 40px;
   padding: 12px 20px;
   justify-content: center;
   align-items: center;
@@ -444,8 +440,8 @@ body {
 
 .next_button {
   display: flex;
-  width: 100px;
-  height: 20px;
+  width: 140px;
+  height: 40px;
   padding: 12px 20px;
   justify-content: center;
   align-items: center;
